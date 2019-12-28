@@ -7,13 +7,20 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { MenuComponent } from './menu/menu.component';
 import { NewLibCardComponent } from './new-lib-card/new-lib-card.component';
+import { NewLibCardLayComponent } from './new-lib-card-lay/new-lib-card-lay.component';
+import { NewCardLayComponent } from './new-lib-card/new-card-lay/new-card-lay.component';
+import { LayComponent } from './new-lib-card/lay/lay.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     MenuComponent,
-    NewLibCardComponent
+    NewLibCardComponent,
+    NewLibCardLayComponent,
+    NewLibCardComponent,
+    NewCardLayComponent,
+    LayComponent
   ],
   imports: [
     BrowserModule,
