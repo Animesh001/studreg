@@ -1,0 +1,26 @@
+/* The sidebar menu */
+#sidebar {
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 48px;
+    left: 0;
+    background-color: #959da0;
+    overflow-x: hidden;
+    padding-top: 20px;
+
+  }
+
+ 
+  img{
+
+    width: 20px;
+  }
+  
+  .list{
+    position: relative;
+    top: 10%;
+    color: azure;
+    font-size: large;
+}
